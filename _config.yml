@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Fran Bartolić"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "personal description"
+name                     : &name "Fran Bartolić"
+description              : &description "PhD candidate in astrophysics"
 url                      : https://fbartolic.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "fbartolic/fbartolic.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Fran Bartolić"
   avatar           : "profile.png"
-  bio              : "PhD student at the [University of St Andrews](https://www.st-andrews.ac.uk/)"
+  bio              : "PhD student at the <a href='https://www.st-andrews.ac.uk/'>University of St Andrews</a>."
   location         : "St Andrews, Scotland"
   employer         :
   googlescholar    : 
@@ -252,7 +252,7 @@ sass:
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
-timezone: America/Los_Angeles # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: Europe/London # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins
