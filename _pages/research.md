@@ -3,8 +3,9 @@ permalink: /research/
 title: "Research"
 author_profile: true
 ---
-# Gravitational Microlensing
+## Gravitational Microlensing
 ![Cartoon picture of the gravitational microlensing phenomenon](./images/microlensing.jpg)
+
 Gravitational lensing is a physical phenomenon described in 
  Einstein's theory [General Relativity](https://en.wikipedia.org/wiki/General_relativity)
 in which massive objects bend space around them which in turn causes light 
@@ -21,7 +22,8 @@ Hole](https://en.wikipedia.org/wiki/Black_hole).
 The massive object acts as a lens causing a magnifying effect which is 
 greatest when the background light source and the foreground object are 
 perfectly aligned with respect to an observer on Earth.
-![Magnification of a point light source due to point mass lensing object.](./images/magnification.png)
+
+![Magnification of a point light source due to point mass lensing object.](./images/magnification.svg)
 
 If we are even more lucky, the foreground object will be a star with a 
 orbiting around it, and the planet will also bend light in such a way that
@@ -31,9 +33,6 @@ particular, it is currently the only method sensitive to detecting cool
 planets orbiting close to the [snow line](https://en.wikipedia.org/wiki/Frost_line_(astrophysics)) which are similar
 to planets in our own Solar System.
 
-
-
-
-# Evolving stars and circumbinary planets
+## Evolving stars and circumbinary planets
 lorem ipsum
 
