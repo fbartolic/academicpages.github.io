@@ -4,7 +4,7 @@ title: "Research"
 author_profile: true
 ---
 ## Gravitational Microlensing
-![Cartoon picture of the gravitational microlensing phenomenon](./images/microlensing.jpg)
+![Cartoon picture of the gravitational microlensing phenomenon](../images/microlensing.jpg)
 
 Gravitational lensing is a physical phenomenon described in 
  Einstein's theory [General Relativity](https://en.wikipedia.org/wiki/General_relativity)
@@ -23,7 +23,7 @@ The massive object acts as a lens causing a magnifying effect which is
 greatest when the background light source and the foreground object are 
 perfectly aligned with respect to an observer on Earth.
 
-![Magnification of a point light source due to point mass lensing object.](./images/magnification.svg)
+![Magnification of a point light source due to point mass lensing object.](../images/magnification.svg)
 
 If we are even more lucky, the foreground object will be a star with a 
 orbiting around it, and the planet will also bend light in such a way that
