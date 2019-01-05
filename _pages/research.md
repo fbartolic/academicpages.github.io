@@ -24,7 +24,7 @@ greatest when the background light source and the foreground object are
 perfectly aligned with respect to an observer on Earth.
 
 <img src="../images/magnification.svg"
-     alt="Magnification of a point light source due to point mass lensing object." width="400"/>
+     alt="Magnification of a point light source due to point mass lensing object." width="70%"/>
 
 If we are even more lucky, the foreground object will be a star with a 
 orbiting around it, and the planet will also bend light in such a way that
