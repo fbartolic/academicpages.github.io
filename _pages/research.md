@@ -23,7 +23,8 @@ The massive object acts as a lens causing a magnifying effect which is
 greatest when the background light source and the foreground object are 
 perfectly aligned with respect to an observer on Earth.
 
-![Magnification of a point light source due to point mass lensing object.](../images/magnification.svg)
+<img src="../images/magnification.svg"
+     alt="Magnification of a point light source due to point mass lensing object." width="400"/>
 
 If we are even more lucky, the foreground object will be a star with a 
 orbiting around it, and the planet will also bend light in such a way that
