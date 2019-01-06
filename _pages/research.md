@@ -4,6 +4,7 @@ title: "Research"
 author_profile: true
 ---
 ## Gravitational Microlensing
+<br>
 ![Cartoon picture of the gravitational microlensing phenomenon](../images/microlensing.jpg)
 
 Gravitational lensing is a physical phenomenon described in 
@@ -23,17 +24,18 @@ The massive object acts as a lens causing a magnifying effect which is
 greatest when the background light source and the foreground object are 
 perfectly aligned with respect to an observer on Earth.
 
-<img src="../images/magnification.svg"
-     alt="Magnification of a point light source due to point mass lensing object." width="70%"/>
+<p style="text-align:center;"><img src="../images/magnification.svg"
+     alt="Magnification of a point light source due to point mass lensing object." 
+     width="80%"/></p>
 
 If we are even more lucky, the foreground object will be a star with a 
 orbiting around it, and the planet will also bend light in such a way that
 we can detect its presence. Gravitational microlensing is thus a method
 of detecting [exoplanets](https://en.wikipedia.org/wiki/Exoplanet). In 
 particular, it is currently the only method sensitive to detecting cool 
-planets orbiting close to the [snow line](https://en.wikipedia.org/wiki/Frost_line_(astrophysics)) which are similar
-to planets in our own Solar System.
+planets orbiting close to the 
+[snow line](https://en.wikipedia.org/wiki/Frost_line_(astrophysics)) 
+which are similar to planets in our own Solar System.
 
 ## Evolving stars and circumbinary planets
-lorem ipsum
 
