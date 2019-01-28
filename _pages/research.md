@@ -5,7 +5,10 @@ author_profile: true
 ---
 ## Gravitational Microlensing
 <br>
-![Cartoon picture of the gravitational microlensing phenomenon](../images/microlensing.jpg)
+<p style="text-align:center;"><img src="../images/microlensing.jpg"
+     alt="Magnification of a point light source due to point mass lensing object." 
+     width="80%"/></p>
+
 
 Gravitational lensing is a physical phenomenon described in 
  Einstein's theory [General Relativity](https://en.wikipedia.org/wiki/General_relativity)
@@ -36,6 +39,27 @@ particular, it is currently the only method sensitive to detecting cool
 planets orbiting close to the 
 [snow line](https://en.wikipedia.org/wiki/Frost_line_(astrophysics)) 
 which are similar to planets in our own Solar System.
+
+The main focus of my research is developing novel, mostly
+[Bayesian](http://tuvalu.santafe.edu/~simon/br.pdf) for modeling microlensing
+events. 
+From a statical viewpoint, microlensing data consists of multiple time series data 
+called light curves, sampled at uneven time intervals.
+The number of observatories 
+participating in the observations of a single event can be as high as a dozen, often 
+involving both ground and space based facilities.
+The model for these events consists of a probabilistic noise model and a deterministic
+physical model, 
+where the latter is very challenging to deal with because it is highly non-linear 
+and there are always multiple 
+physical "solutions" for a given light curve, leading to multi-modal and highly 
+correlated posterior probability distributions.
+These pose a significant challenge to even the most 
+[sophisticated sampling methods](http://arogozhnikov.github.io/2016/12/19/markov_chain_monte_carlo.html) 
+which routinely fail in such circumstances. 
+In addition to  the sampling issues, quantifying the evidence for a planet in a 
+microlensing event is equally challenging.
+
 
 ## Evolving stars and circumbinary planets
 

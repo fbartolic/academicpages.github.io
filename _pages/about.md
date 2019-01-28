@@ -29,7 +29,7 @@ methods to understand properties of the great variety of exoplanets we have
 observed so far. You can read more about my current and past research 
 [here](https://fbartolic.github.io/research/).
 
-I was born and raised in sunny Croatia, I did my undergraduate degree in 
+I was born and raised in sunny Croatia. I did my undergraduate degree in 
 physics at the University of Split, and my master's degree at 
 the University of Rijeka. In my free time, I enjoy traveling, reading, 
 dancing Argentine Tango, 
