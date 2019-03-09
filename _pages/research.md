@@ -62,4 +62,33 @@ microlensing event is equally challenging.
 
 
 ## Evolving stars and circumbinary planets
+<br>
+<p style="text-align:center;"><img src="../images/tatooine.jpg"
+     alt="Legendary circumbinary planet Tatooine." 
+     width="80%"/></p>
+When the original *Star Wars* film aired in 1977 planets orbiting around
+two stars such were purely fictional objects.
+Today, thanks to the [Kepler](https://en.wikipedia.org/wiki/Kepler_space_telescope) 
+space telescope we know that not only that these planets exist, but they are 
+also [quite common](https://arxiv.org/abs/1404.5617).
+These planets are called [circumbinary planets](https://en.wikipedia.org/wiki/Circumbinary_planet)
+since they are orbiting [binary stars](https://en.wikipedia.org/wiki/Binary_star).
+Since the gravitational interaction between the two stars is quite strong,
+the planets have to orbit sufficiently far out, otherwise they end up being ejected
+from the system or engulfed by one of the stars.
+In my master's thesis, I researched what happens to such planets as one of 
+the two stars evolves and becomes a 
+[Red Giant](https://en.wikipedia.org/wiki/Red_giant) star.
+To answer this question, I developed an analytical model of the interaction between
+the binary star and the outer planets, and also ran computer simulations 
+with the N-BODY code [REBOUND](https://rebound.readthedocs.io/en/latest/).
+My master's thesis is available for download 
+[here](https://zir.nsk.hr/en/islandora/object/phyri%3A38).
+<br>
+<p style="text-align:center;"><img src="../images/adiabatic_invariant.svg"
+     alt="Phase plots of a Hamiltonian system describing the interaction between
+     a circumbinary planet and a binary star." 
+     width="80%"/></p>
+
+
 
