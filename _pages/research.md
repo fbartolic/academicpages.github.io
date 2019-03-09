@@ -5,31 +5,43 @@ author_profile: true
 ---
 ## Gravitational Microlensing
 <br>
-<p style="text-align:center;"><img src="../images/microlensing.jpg"
-     alt="Magnification of a point light source due to point mass lensing object." 
-     width="80%"/></p>
-
+<center><figure>
+  <img src="../images/microlensing.gif" style="width:60%;">
+  <figcaption>Short animation illustrating a gravitational microlensing event
+  <a href="https://www.youtube.com/watch?v=yY9w_LQ7WHc">, source</a>.</figcaption>
+</figure></center>
 
 Gravitational lensing is a physical phenomenon described in 
- Einstein's theory [General Relativity](https://en.wikipedia.org/wiki/General_relativity)
-in which massive objects bend space around them which in turn causes light 
-passing close to the object to change its direction of propagation.
-If we are *extremely* lucky, it's possible to observe this phenomenon with
-single stars in our Galaxy acting as both the light sources and the massive
-objects (usually called lenses) which cause the bending of light.
-We cannot *see* this effect, called *gravitational microlensing* directly, 
-but we can see the apparent change in brightness of a background star in 
-our galaxy due to a foreground object passing in front of it. The foregorund
-object is usually also a star, but it can be a planet, a 
+ Einstein's theory [General Relativity](https://en.wikipedia.org/wiki/General_relativity).
+General Relativity predicts that massive objects such as stars and Black Holes
+bend space around them, 
+which in turn causes light passing close to such objects to 
+change direction ever so slightly towards the massive object.
+This means that if we observe a given star in our galaxy, 
+and a faint massive object passes directly in front of it from 
+our point of view, the star will appear
+brighter than usual for certain time period because the massive object
+acts as a *lens*. The magnifying effect is 
+greatest when the background light source and the foreground object are 
+perfectly aligned with respect to an observer on Earth and it is called
+[gravitational microlensing](https://en.wikipedia.org/wiki/Gravitational_microlensing).
+Gravitational microlensing events are extraordinarily rare, this 
+means that we either have to be
+very lucky to observe one, or we have to continuously observe hundreds 
+of millions of stars in our galaxy hoping that a few will get magnified for
+a period in time.
+The reason why this effect is useful, besides being another demonstration
+of Einstein's theory, is that it enables us to say something about the 
+massive lensing object which acts as a lens.
+The lensing object is most commonly a star, a
 [Brown Dwarf](https://en.wikipedia.org/wiki/Brown_dwarf), or even a [Black
 Hole](https://en.wikipedia.org/wiki/Black_hole). 
-The massive object acts as a lens causing a magnifying effect which is 
-greatest when the background light source and the foreground object are 
-perfectly aligned with respect to an observer on Earth.
 
-<p style="text-align:center;"><img src="../images/magnification.svg"
-     alt="Magnification of a point light source due to point mass lensing object." 
-     width="80%"/></p>
+<center><figure>
+  <img src="../images/magnification.svg" style="width:70%;">
+  <figcaption>Magnification of a point light source due to point mass 
+  lensing object as a function of time.</figcaption>
+</figure></center>
 
 If we are even more lucky, the foreground object will be a star with a 
 orbiting around it, and the planet will also bend light in such a way that
@@ -63,9 +75,11 @@ microlensing event is equally challenging.
 
 ## Evolving stars and circumbinary planets
 <br>
-<p style="text-align:center;"><img src="../images/tatooine.jpg"
-     alt="Legendary circumbinary planet Tatooine." 
-     width="80%"/></p>
+<center><figure>
+  <img src="../images/tatooine.jpg" style="width:70%;">
+  <figcaption>Tatooine, the original circumbinary planet.</figcaption>
+</figure></center>
+
 When the original *Star Wars* film aired in 1977 planets orbiting around
 two stars such were purely fictional objects.
 Today, thanks to the [Kepler](https://en.wikipedia.org/wiki/Kepler_space_telescope) 
@@ -74,21 +88,23 @@ also [quite common](https://arxiv.org/abs/1404.5617).
 These planets are called [circumbinary planets](https://en.wikipedia.org/wiki/Circumbinary_planet)
 since they are orbiting [binary stars](https://en.wikipedia.org/wiki/Binary_star).
 Since the gravitational interaction between the two stars is quite strong,
-the planets have to orbit sufficiently far out, otherwise they end up being ejected
-from the system or engulfed by one of the stars.
+the planets have to orbit sufficiently far out from the two stars to avoid
+being ejected from the system or engulfed by one of the stars.
+
 In my master's thesis, I researched what happens to such planets as one of 
 the two stars evolves and becomes a 
 [Red Giant](https://en.wikipedia.org/wiki/Red_giant) star.
 To answer this question, I developed an analytical model of the interaction between
-the binary star and the outer planets, and also ran computer simulations 
+the binary star and the outer planets using 
+[Hamiltonian mechanics](https://en.wikipedia.org/wiki/Hamiltonian_mechanics), 
+and also ran computer simulations 
 with the N-BODY code [REBOUND](https://rebound.readthedocs.io/en/latest/).
 My master's thesis is available for download 
 [here](https://zir.nsk.hr/en/islandora/object/phyri%3A38).
 <br>
-<p style="text-align:center;"><img src="../images/adiabatic_invariant.svg"
-     alt="Phase plots of a Hamiltonian system describing the interaction between
-     a circumbinary planet and a binary star." 
-     width="80%"/></p>
 
-
-
+<center><figure>
+  <img src="../images/adiabatic_invariant.svg" style="width:70%;">
+  <figcaption>Phase plots of a Hamiltonian system describing an interaction between
+     a circumbinary planet and a binary star.</figcaption>
+</figure></center>
