@@ -87,7 +87,7 @@ is equally challenging.
 <center>
   <img src="../images/tatooine.jpg" style="width:70%;">
   <figcaption>Tatooine, the original circumbinary planet.</figcaption>
-<center>
+</center>
 
 When the original *Star Wars* film aired in 1977 planets orbiting around
 two stars such were purely fictional objects.
