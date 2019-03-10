@@ -71,8 +71,7 @@ be as high as a dozen, often
 involving both ground and space based facilities.
 
 The statistical model for these events consists of a probabilistic 
-noise model and a deterministic physical model.  
-The latter is very challenging to deal with because it is highly non-linear 
+noise model and a deterministic physical model. The latter is very challenging to deal with because it is highly non-linear 
 and there are almost always multiple physical systems which give rise to near 
 identical data.
 This results in multi-modal and highly correlated posterior 
