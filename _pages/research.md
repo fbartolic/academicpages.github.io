@@ -33,10 +33,11 @@ of millions of stars in our galaxy hoping that a few will get magnified for
 a short period in time.
 The reason why this effect is useful, besides being another demonstration
 of Einstein's theory, is that it enables us to say something about the 
-massive object which acts as a lens.
+massive object which acts as a lens in a microlensing event.
 The lensing object is just another star in the vast majority of 
 events, but it can also be a
-[Brown Dwarf](https://en.wikipedia.org/wiki/Brown_dwarf), or a [Black
+[Brown Dwarf](https://en.wikipedia.org/wiki/Brown_dwarf), a 
+[Neutron Star](https://en.wikipedia.org/wiki/Neutron_star) or a [Black
 Hole](https://en.wikipedia.org/wiki/Black_hole). 
 
 <center>
@@ -45,13 +46,15 @@ Hole](https://en.wikipedia.org/wiki/Black_hole).
   lensing object as a function of time.</figcaption>
 </center>
 
-If we are even luckier, the foreground object will be a star with a planet
-orbiting around it, and the planet will also bend light in such a way that
-we can detect its presence. Gravitational microlensing is thus one method
+In a small subset of the already rare microlensing evnets, 
+it is possible to detect planets orbiting around the lensing star.
+In those cases, the planets themselves act as magnifying lenses, enabling us 
+to detect their presence without observing them directly. 
+Gravitational microlensing is thus a method
 for detecting [exoplanets](https://en.wikipedia.org/wiki/Exoplanet). In 
 particular, it is currently the only method sensitive to detecting cool 
-planets, those which are similar to planets in our own Solar System, 
-orbiting close to the so called
+planets similar to planets in our own Solar System, orbiting close to the
+so called 
 [snow line](https://en.wikipedia.org/wiki/Frost_line_(astrophysics)).
 
 The main focus of my research is developing novel, mostly
@@ -68,8 +71,8 @@ be as high as a dozen, often
 involving both ground and space based facilities.
 
 The statistical model for these events consists of a probabilistic 
-noise model and a deterministic physical model, 
-where the latter is very challenging to deal with because it is highly non-linear 
+noise model and a deterministic physical model.  
+The latter is very challenging to deal with because it is highly non-linear 
 and there are almost always multiple physical systems which give rise to near 
 identical data.
 This results in multi-modal and highly correlated posterior 
