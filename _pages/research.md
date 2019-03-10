@@ -118,6 +118,7 @@ My master's thesis is available for download
 
 <center>
   <img src="../images/adiabatic_invariant.svg" style="width:70%;">
-  <figcaption>Phase plots of a Hamiltonian system describing an interaction between
+  <figcaption>Phase space plots of a Hamiltonian system 
+  describing an interaction between
      a circumbinary planet and a binary star.</figcaption>
 </center>
