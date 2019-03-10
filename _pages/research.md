@@ -116,8 +116,8 @@ the N-BODY code [REBOUND](https://rebound.readthedocs.io/en/latest/).
 My master's thesis is available for download 
 [here](https://zir.nsk.hr/en/islandora/object/phyri%3A38).
 
-<center><figure>
+<center>
   <img src="../images/adiabatic_invariant.svg" style="width:70%;">
   <figcaption>Phase plots of a Hamiltonian system describing an interaction between
      a circumbinary planet and a binary star.</figcaption>
-</figure></center>
+</center>
