@@ -37,5 +37,5 @@ I was born and raised in sunny Croatia. I did my undergraduate degree in
 physics at the University of Split, and my master's degree at 
 the University of Rijeka. In my free time, I enjoy traveling, reading, 
 dancing Argentine Tango, 
-[photography](https://fbartolic.github.io/research/), listening
+[photography](https://fbartolic.github.io/photography/), listening
 to podcasts, and cooking.
