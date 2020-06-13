@@ -12,12 +12,11 @@ I am a PhD candidate in Astrophysics at the
 of the  
 [University of St Andrews](https://www.st-andrews.ac.uk/) in Scotland.
 Currently I am working at the [Centre for Computational Astrophysics](https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/) at the Flatiron Institute in New York as a pre-doctoral fellow.
-I am also a member of  an interdisciplinary 
-[Centre for Exoplanet Science](https://www.st-andrews.ac.uk/exoplanets/index.html)
-at St Andrews.
+I am also associated with the interdisciplinary 
+[Centre for Exoplanet Science](https://www.st-andrews.ac.uk/exoplanets/index.html) at St Andrews.
 
-My broad research interests are how in building probabilistic models for astrophysical data.
-Specifically, my thesis is on building models of
+My research interests revolve around building probabilistic models for astrophysical data.
+Specifically, my thesis is on modeling
 [gravitational microlensing](http://microlensing-source.org/concept/) 
 events, a particular method of detecting 
 [exoplanets](https://en.wikipedia.org/wiki/Exoplanet).
