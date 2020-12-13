@@ -83,7 +83,7 @@ author:
   name             : "Fran Bartolić"
   avatar           : "profile.jpg"
   bio              : "PhD student in astrophysics at the <a href='https://www.st-andrews.ac.uk/'>University of St Andrews</a>."
-  location         : "New York, USA"
+  location         : "St Andrews, Scotland"
   employer         :
   googlescholar    : 
   email            : "fb90 at st-andrews.ac.uk"
@@ -97,10 +97,10 @@ author:
   foursquare       :
   github           : "fbartolic"
   google_plus      :
-  keybase          :
-  instagram        : "fbartolic"
+  keybase          : "fbartolic"
+  instagram        : 
   lastfm           :
-  linkedin         :
+  linkedin         : "fbartolic"
   orcid            : "https://orcid.org/0000-0001-8630-9794"
   pinterest        :
   soundcloud       :
