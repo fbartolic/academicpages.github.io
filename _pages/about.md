@@ -7,30 +7,21 @@ redirect_from:
   - /about/
   - /about.html
 ---
-I am a PhD candidate in Astrophysics at the 
-[School of Physics and Astronomy](https://www.st-andrews.ac.uk/physics/research/index.php)
-of the  
-[University of St Andrews](https://www.st-andrews.ac.uk/) in Scotland.
-Currently I am working at the [Centre for Computational Astrophysics](https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/) at the Flatiron Institute in New York as a pre-doctoral fellow.
-I am also associated with the interdisciplinary 
-[Centre for Exoplanet Science](https://www.st-andrews.ac.uk/exoplanets/index.html) at St Andrews.
 
-My research interests revolve around building probabilistic models for astrophysical data.
-Specifically, my thesis is on modeling
-[gravitational microlensing](http://microlensing-source.org/concept/) 
-events, a particular method of detecting 
-[exoplanets](https://en.wikipedia.org/wiki/Exoplanet).
-At the Centre for Computational Astrophysics in  New York I am working on a method for inferring time-dependent maps of the surfaces of volcanic exoplanets.
+I am a PhD candidate in Astrophysics at the School of Physics and Astronomy at the [University of St Andrews](https://www.st-andrews.ac.uk/) which is located in a small Scottish seaside town of St Andrews.
+I am also a member of the interdisciplinary [Centre for Exoplanet Science](https://www.st-andrews.ac.uk/exoplanets/index.html) at St Andrews.
 
-Previously, I studied the interaction between evolving stars and the 
+My research interests revolve around building Bayesian probabilistic models for astrophysical time series data.
+The main focus of my research is [gravitational microlensing](http://microlensing-source.org/concept/), a particular method for detecting and characterizing [exoplanets](https://en.wikipedia.org/wiki/Exoplanet) and Black Holes. 
+
+In addition to microlensing, in collaboration with researchers from the [Centre for Computational Astrophysics](https://www.simonsfoundation.org/flatiron/center-for-computational-astrophysics/) in New York I am working on mapping the surfaces of planets and moons from one-dimensional time series brightness measurements. 
+In the short term, this work will enable us to map volcanic activity on so called [lava planets](https://en.wikipedia.org/wiki/Lava_planet) with NASA's upcoming [James Webb Space Telescope](https://www.jwst.nasa.gov/).
+In the [long term](https://en.wikipedia.org/wiki/Large_Ultraviolet_Optical_Infrared_Surveyor), these methods will enable astronomers to *map the surfaces of Earth size (and potentially Earth like) planets orbiting distant stars*! 
+Before starting my PhD, I worked on the interaction between evolving stars and the 
 dynamics of exoplanets at [Lund Observatory](http://www.astro.lu.se/) 
-in Sweden, working with [Alex Mustill](http://www.astro.lu.se/~alex/). 
-These days I am mostly interested in statistical modeling in 
-general, and Bayesian models in particular, with the goal of using these
-methods to understand properties of the great variety of exoplanets we have
-observed so far. 
+in Sweden. 
 You can read more about my current and past research 
 [here](https://fbartolic.github.io/research/).
 
-I was born and raised in sunny Croatia where I did my undergraduate and masters degree in physics.
-Other than astronomy, I am interested in all things related to [complexity science](https://www.complexityexplorer.org/), reading, cooking, listening to [podcasts](https://www.jimruttshow.com/) and a bunch of other things.
+I was born and raised in sunny Croatia where I finished an undergraduate and masters degree in physics.
+Other than astronomy and statistics, I am interested in all things related to [complexity science](https://www.complexityexplorer.org/), reading, cooking, listening to [podcasts](https://www.jimruttshow.com/) and a bunch of other things.
