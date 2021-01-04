@@ -4,13 +4,12 @@ title: "Research"
 author_profile: true
 ---
 ## Gravitational Microlensing
-</br>
+
 <center>
   <img src="../images/microlensing.gif" style="width:60%;">
   <figcaption>Short animation illustrating a gravitational microlensing event. 
   <a href="https://www.youtube.com/watch?v=yY9w_LQ7WHc">Source</a>.</figcaption>
 </center>
-</br>
 
 Gravitational lensing is a physical phenomenon described in 
  Einstein's theory of [General Relativity](https://en.wikipedia.org/wiki/General_relativity).
@@ -31,13 +30,12 @@ This means that either we have to be extremely lucky to observe one by looking a
 The latter startegy is of course used in practice.
 The reason why this effect is useful, besides being another proof that Einstein's theory make correct predictions, is that it enables us to learn something about the massive object which acts as a lens in a microlensing event.
 In the majority of microlensing events the lensing object is just another star but ocassionally it can be a [Brown Dwarf](https://en.wikipedia.org/wiki/Brown_dwarf), a [Neutron Star](https://en.wikipedia.org/wiki/Neutron_star) or a [Black Hole](https://en.wikipedia.org/wiki/Black_hole). 
-</br>
+
 <center>
   <img src="../images/magnification.svg" style="width:60%;">
   <figcaption>Magnification of a point light source due to point mass 
   lensing object as a function of time.</figcaption>
 </center>
-</br>
 
 For a small subset of microlensing evnets it is possible to detect planets orbiting around the lensing star.
 In those cases, the planets themselves act as magnifying lenses enabling us to detect their presence without observing them directly. 
@@ -72,23 +70,19 @@ It is scientifically interesting because it is a sort of model for extreme volca
 Although multiple spacecrafts have visited Io and taken detailed images of its surface so we know what the surface looks like in visible light, in the near infrared the surface looks different at any given time depending on which volcanoes are active.
 Here's video taken during an occultation of Io by Europa with the Large Binocular Telescope in the near infrared:
 
-</br>
 <center>
   <img src="../images/io_europa_occultation.gif" style="width:30%;">
   <figcaption>An occultation of Io by Europa. Taken from <a href="https://news.berkeley.edu/2017/05/10/waves-of-lava-seen-in-ios-largest-volcanic-crater/">here</a>.</figcaption>
 </center>
-</br>
 
 Four hot spots corresponding to active volcanoes are visible on Io's surface.
 As Europa's projected disk sweeps across Io's surface the volcanoes disappear out of view one by one, leaving a signature in the observed total flux (not shown).
 Here's what the data looks like for a similar occultation, except this time it is an occultation by Jupiter:
 
-</br>
 <center>
   <img src="../images/egress_io.png" style="width:60%;">
   <figcaption>An occultation of Io by Europa. Taken from <a href="https://news.berkeley.edu/2017/05/10/waves-of-lava-seen-in-ios-largest-volcanic-crater/">here</a>.</figcaption>
 </center>
-</br>
 
 The occultation lasts for about 4 minutes and in this particular case we are observing Io when it is appearing behind the limb of Jupiter and hence the flux is increasing.
 The data is very high quality (because Io is in the Solar System so it's easy to observe) and one can clearly see two steps in the light curve, a smaller one around 2 minutes and a major increase around 4.2 minutes. 
@@ -97,13 +91,11 @@ We built a probabilistic model using Starry in order to reconstruct the location
 Importantly, in our model we don't assume that we know the locations of the spots or how many there are, we only assume a sparse prior on the map, meaning that we expect the surface to be very hot at a few locations (major volcanoes) and cold everywhere else.
 This is the map of Io we are able to infer from only two light curves:
 
-</br>
 <center>
   <img src="../images/io_irtf_map.png" style="width:70%;">
   <figcaption>Median inferred map of surface thermal emission on Jupiter's moon Io. 
   Output of a probabilistic model fitted on two occultation light curves (1D time series data).</figcaption>
 </center>
-</br>
 
 The model has thousands of parameters but we are able to avoid overfitting with the sparsity inducing prior and by sampling the posterior with Hamiltonian Monte Carlo. 
 We also use a Gaussian Process to model residual noise in the observations which is present because of instrument deficiencies and weather (observations were taken from Earth). 
@@ -111,12 +103,11 @@ The Gaussian Process supplements the physical model and prevents it from overfit
 We find that the explanatory power of the Gaussian Process is just right, meaning that if a certain feature in the light curve can be well explained by the physical surface model, the physical model won't be outcompeted by the Gaussian Process.
 
 ## Evolving stars and circumbinary exoplanets
-</br>
+
 <center>
   <img src="../images/tatooine.jpg" style="width:70%;">
   <figcaption>Tatooine, the original circumbinary planet.</figcaption>
 </center>
-</br>
 
 When the original *Star Wars* film aired in 1977 planets orbiting around [binary stars](https://en.wikipedia.org/wiki/Binary_star) were purely fictional objects.
 Thanks to the [Kepler](https://en.wikipedia.org/wiki/Kepler_space_telescope) 
