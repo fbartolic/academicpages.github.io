@@ -57,16 +57,16 @@ In addition to working on improving the efficiency of modeling microlensing even
 In astronomy we can only resolve the surfaces of a few of the closest large stars using a technique called [interferometry](https://en.wikipedia.org/wiki/Astronomical_interferometer).
 Directly resolving surfaces of planets and small stars is hopeless because it would require telescopes with extremely large diameters. 
 Fortunately, in some specific cases there is a way around this problem. 
-If we observe the total brightness of both the star and the planet to a very high precision as the planet passes behind the star in its orbit (a so called *occultation* or an *eclipse*), the surface features of the planet will be imprinted onto the time series measurements.
-Thus it is in principle possible to start with the time series data and reconstruct a crude surface map of the (star facing) side of the planet. 
+If we observe the total brightness of both the star and the planet to a very high precision as the planet passes behind the star in its orbit (a so called *occultation*), some of the surface features of the planet will be imprinted onto the time series measurements.
+Therefore, it is in principle possible to start with the time series data and reconstruct a crude surface map of the (star facing) side of the planet. 
 Amazingly, this has already been accomplished in [2007](https://arxiv.org/abs/0705.0993) using NASA's Spitzer space telescope, albeit only for a large Jupiter sized planet orbiting very close to its close star and at very low resolution.
 The [resulting map](https://upload.wikimedia.org/wikipedia/commons/0/03/Global_Temperature_Map_for_Exoplanet_HD_189733b.jpg) showed a large hot spot with an Eastward shift from the star facing side of the planet.
 
 Recently, [Rodrigo Luger](https://luger.dev/) developed a fast method called [starry](https://luger.dev/starry/latest/notebooks/Basics.html) for modeling these kinds of occultations analytically which is possible if one assumes that the surface features can be expanded in a basis of spherical harmonics. 
-Together with Rodrigo and Dan Foreman-Mackey I worked on a project to apply this code to a system for which we (approximately) know the ground truth for what the surface looks like. 
-We used archival near infrared observations of Jupiter's innermost moon [Io](https://en.wikipedia.org/wiki/Io_(moon)) observed at the times when Io was occulted by Jupiter.
+Together with Rodrigo and Dan Foreman-Mackey I am working on a project to apply this code to a system for which we (approximately) know the ground truth for what the surface looks like. 
+We use archival near infrared observations of Jupiter's innermost moon [Io](https://en.wikipedia.org/wiki/Io_(moon)) observed at the times when Io was occulted by Jupiter.
 Io is the most volcanically active body in the Solar System with multiple eruptions happening on different timescales (days to years).
-It is scientifically interesting because it is a sort of model for extreme volcanism on hot exoplanets and it is in many ways similar to the early Earth.
+Volcanism on Io is scientifically interesting because it similar to early Earth volcanism and also because it is likely that volcanic exoplanets are in many ways similar to Io. 
 Although multiple spacecrafts have visited Io and taken detailed images of its surface so we know what the surface looks like in visible light, in the near infrared the surface looks different at any given time depending on which volcanoes are active.
 Here's video taken during an occultation of Io by Europa with the Large Binocular Telescope in the near infrared:
 
@@ -77,19 +77,18 @@ Here's video taken during an occultation of Io by Europa with the Large Binocula
 
 Four hot spots corresponding to active volcanoes are visible on Io's surface.
 As Europa's projected disk sweeps across Io's surface the volcanoes disappear out of view one by one, leaving a signature in the observed total flux (not shown).
-Here's what the data looks like for a similar occultation, except this time it is an occultation by Jupiter:
+Here is what the data looks like for a similar occultation, except in the case where Io is occulted by Jupiter:
 
 <center>
   <img src="../images/egress_io.png" style="width:60%;">
   <figcaption>An occultation of Io by Europa. Taken from <a href="https://news.berkeley.edu/2017/05/10/waves-of-lava-seen-in-ios-largest-volcanic-crater/">here</a>.</figcaption>
 </center>
 
-The occultation lasts for about 4 minutes and in this particular case we are observing Io when it is appearing behind the limb of Jupiter and hence the flux is increasing.
-The data is very high quality (because Io is in the Solar System so it's easy to observe) and one can clearly see two steps in the light curve, a smaller one around 2 minutes and a major increase around 4.2 minutes. 
-These steps correspond to individual volcanoes on Io's surface. 
+The occultation lasts for about 4 minutes and in this particular case we are observing Io as it passes behind the limb of Jupiter and hence the flux is increasing with time.
+The data is very high quality (because Io is in the Solar System so it's easy to observe) and one can clearly see two steps in the light curve which correspond to individual volcanoes on Io's surface. 
 We built a probabilistic model using Starry in order to reconstruct the locations of the hot spots of the volcanoes from a few light curves. 
-Importantly, in our model we don't assume that we know the locations of the spots or how many there are, we only assume a sparse prior on the map, meaning that we expect the surface to be very hot at a few locations (major volcanoes) and cold everywhere else.
-This is the map of Io we are able to infer from only two light curves:
+Importantly, in our model we don't assume that we know the locations of the spots or how many there are, we only assume a sparse prior on the map, meaning that we expect the surface to consist of a few high temperature hotspots (corresponding major volcanoes) and be cold regions everywhere else.
+The map of Io that we are able to infer from only two light curves is shown below:
 
 <center>
   <img src="../images/io_irtf_map.png" style="width:70%;">
@@ -97,10 +96,12 @@ This is the map of Io we are able to infer from only two light curves:
   Output of a probabilistic model fitted on two occultation light curves (1D time series data).</figcaption>
 </center>
 
-The model has thousands of parameters but we are able to avoid overfitting with the sparsity inducing prior and by sampling the posterior with Hamiltonian Monte Carlo. 
-We also use a Gaussian Process to model residual noise in the observations which is present because of instrument deficiencies and weather (observations were taken from Earth). 
+The model has thousands of parameters but we are able to avoid overfitting by using a sparsity inducing prior and by sampling the posterior with Hamiltonian Monte Carlo. 
+We also use a Gaussian Process to model residual noise in the observations which is present because of instrument deficiencies and weather (the observations were taken from Earth). 
 The Gaussian Process supplements the physical model and prevents it from overfitting the features in the light curve which are purely due to noise or the weather.
-We find that the explanatory power of the Gaussian Process is just right, meaning that if a certain feature in the light curve can be well explained by the physical surface model, the physical model won't be outcompeted by the Gaussian Process.
+We find that the explanatory power of the Gaussian Process is about what we would expect. 
+If a certain feature in the light curve can be well explained by the physical surface model, the physical model won't be outcompeted by the Gaussian Process. 
+For more details about this work, check out our [paper](https://arxiv.org/abs/2103.03758).
 
 ## Evolving stars and circumbinary exoplanets
 
